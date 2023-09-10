@@ -1,0 +1,60 @@
+#root {
+ width: 100vw;
+ height: 100vh;
+ margin: 0 ;
+ padding: 0;
+ text-align: center;
+}
+.nav{
+  display: flex; 
+}
+.main{
+  border: 2px solid #eee !important;
+  margin: 10px auto;
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.items{
+  cursor: pointer;
+  font-size: 20px !important;
+  color: azure !important;
+}
+.items:hover{
+  background-color:#00bbd4 !important;
+  border-radius: 7px;
+}
+.map{
+  width: 70%; 
+  height: 70%;
+  display: block;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+.address{
+  font-family: 'Courier New', Courier, monospace;  
+}
+.labell{
+  float: left;
+  margin-top: 20px;
+}
+.title{
+ 
+ padding-left: 0;
+  display: inline-block;
+ 
+}
+.area{
+  height: 20vh;
+  
+}
+.right-side{
+  width: 40%;
+  height: 100%;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+}
